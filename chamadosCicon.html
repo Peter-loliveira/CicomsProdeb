@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Chamados Cincon Prodeb</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        #textoGerado {
+            width: 80%;
+            height: 100px;
+            padding: 10px;
+        }
+        div{
+            padding: 10px 0 0 10px;
+
+        }
+    </style>
+</head> 
+
+<body>
+    <div class="">
+        <h1>Chamados Cicons Prodeb</h1>
+    </div>
+    <div class="">
+
+        <select name="listaCicons" id="listaCicons">
+            <option value="Cicon A01">Alagoinhas</option>
+            <option value="Cicon B01">Barreiras</option>
+            <option value="Cicon C01">Brumado</option>
+            <option value="Cicon D01">Esplanada</option>
+            <option value="Cicon E01">Euclides da Cunha</option>
+            <option value="Cicon F01">Feira de Santana</option>
+            <option value="Cicon G01">Guanambi</option>
+            <option value="Cicon H01">Ibotirama</option>
+            <option value="Cicon A01">Irece</option>
+            <option value="Cicon B01">Itaberaba</option>
+            <option value="Cicon C01">Itabuna</option>
+            <option value="Cicon D01">Jequié</option>
+            <option value="Cicon E01">Juazeiro</option>
+            <option value="Cicon F01">Paulo Afonso</option>
+            <option value="Cicon G01">Porto Seguro</option>
+            <option value="Cicon H01">Santa Maria da Vitoria</option>
+            <option value="Cicon A01">Santo Antônio de Jesus</option>
+            <option value="Cicon B01">Senhor do Bonfim</option>
+            <option value="Cicon C01">Serrinha</option>
+            <option value="Cicon D01">Teixeira de Freitas</option>
+            <option value="Cicon E01">Valença</option>
+            <option value="Cicon F01">Vitoria da Conquista</option>
+            
+            
+        </select>
+    </div>
+    <div>
+        <button type="button" class="btn btn-primary" id="gerarTexto" onclick="geraTexto()">Gerar Lista</button>
+    </div>
+    <div class="">
+        <textarea type="text" id="textoGerado"></textarea>
+    </div>
+</body>
+
+<script>
+    const lista = document.getElementById('listaCicons')
+    const textoGerado = document.getElementById('textoGerado')
+    
+    function geraTexto(){
+        let cicon = lista.options[lista.selectedIndex].text
+        let textoFinal = 
+        `CICOM ${cicon.toUpperCase()}. Informamos que às 15:48hs do dia 10/09/2021 foi constatado que o link de dados do CICOM na cidade de Valença do circuito ${lista.value.toUpperCase()} encontra-se inoperante. Informamos ainda que o atendimento é de emergência operando 24h e não pode parar. Telefone de contato: 75 36433400 Cap. PM Claudelúcia Veiga, Coordenador da Unidade.`
+        textoGerado.value = textoFinal
+    }
+</script>
+</html>
