@@ -31,6 +31,13 @@
             resize: none;
         }
 
+        label{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 8.3%;
+            font-weight: 800;
+        }
+
         .textosGerados {
             width: 80%;
             height: 100px;
@@ -42,14 +49,19 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            background-color: ;
+            margin-top: -10px;
         }
 
         .botaoCopiar {
             height: 100px;
-            margin-left: 5px;
+            margin-left: 3px;
             border-radius: 5px;
             border: 1px solid gray;
+        }
+        .botaoCopiar:hover{
+            background-color:#4bdd99;
+            border: 1px solid gray;
+
         }
     </style>
 </head>
@@ -65,9 +77,15 @@
     <div>
         <button type="button" class="btn btn-primary" id="gerarTexto" onclick="geraTextos()">Gerar Textos</button>
     </div>
+    <div>
+        <label for="">Texto Incidente:</label>
+    </div>
     <div class='areaTextosGerados'>
         <textarea type="text" class="textosGerados" id="textoGerado"></textarea>
         <button class="btn btn btn-light botaoCopiar" onclick="copiarTextoIncidente()">📋</button>
+    </div>
+    <div>
+        <label for="">Texto Whatsapp:</label>
     </div>
     <div class='areaTextosGerados'>
         <textarea type="text" class="textosGerados" id="whatsappGerado"></textarea>
@@ -118,6 +136,7 @@
     function geraTextos() {
         // Captura data e hora atual
         let data = new Date()
+        console.log(data);
         let dia = data.getDate();
         let mes = data.getMonth() + 1;
         let ano = data.getFullYear();
@@ -129,7 +148,7 @@
 
         // Gera os textos finais
         let textoFinal =
-            `CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}. Informamos que às ${hora}:${min}hs do dia ${dia + 1}/${mes}/${ano} foi constatado que o link de dados do CICOM na cidade de Valença do circuito ${cicoms[indexSelecionado].circuito.toUpperCase()} encontra-se inoperante. Informamos ainda que o atendimento é de emergência operando 24h e não pode parar. Telefone de contato: ${cicoms[indexSelecionado].Tel.toUpperCase()} ${cicoms[indexSelecionado].Contato.toUpperCase()}, Coordenador da Unidade.`
+            `CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}. Informamos que às ${hora}:${min}hs do dia ${dia}/${mes}/${ano} foi constatado que o link de dados do CICOM na cidade de Valença do circuito ${cicoms[indexSelecionado].circuito.toUpperCase()} encontra-se inoperante. Informamos ainda que o atendimento é de emergência operando 24h e não pode parar. Telefone de contato: ${cicoms[indexSelecionado].Tel.toUpperCase()} ${cicoms[indexSelecionado].Contato.toUpperCase()}, Coordenador da Unidade.`
         let whatsappFinal =
             `Foi aberto um Incidente Junto à PRODEB referente à CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}. Incidente Nº: `
 
