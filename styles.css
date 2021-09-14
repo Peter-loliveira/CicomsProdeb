@@ -1,0 +1,54 @@
+body {
+    padding-top: 5%;
+}
+
+div {
+    padding: 10px 0 0 10px;
+}
+
+select {
+    width: 20%;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+option {
+    font-weight: 500;
+}
+
+textarea {
+    resize: none;
+}
+
+label{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 8.3%;
+    font-weight: 800;
+}
+
+.textosGerados {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+}
+
+.areaTextosGerados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.botaoCopiar {
+    height: 100px;
+    margin-left: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.botaoCopiar:hover{
+    background-color:#4bdd99;
+    border: 1px solid gray;
+
+}
