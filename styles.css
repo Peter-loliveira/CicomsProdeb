@@ -16,6 +16,10 @@ option {
     font-weight: 500;
 }
 
+#itemSelect01{
+    color: #cccccc;
+}
+
 textarea {
     resize: none;
 }

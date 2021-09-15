@@ -38,6 +38,12 @@ const whatsappGerado = document.getElementById('whatsappGerado')
 
 
 function geraTextos() {
+
+    if(lista.value == 'Selecione uma CICOM') {
+        textoGerado.value = ''
+        whatsappGerado.value = ''
+    }
+    
     // Captura data e hora atual
     let data = new Date()
     
@@ -56,7 +62,7 @@ function geraTextos() {
     if(min < 10) {min = '0' + min} 
 
     // Captura item ca lista selecionado
-    let indexSelecionado = lista.selectedIndex
+    let indexSelecionado = lista.selectedIndex - 1
 
     // Gera os textos finais
     let textoFinal =

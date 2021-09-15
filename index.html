@@ -18,10 +18,12 @@
     </div>
 
     <div class="">
-        <select name="listaCicoms" id="listaCicoms"></select>
+        <select name="listaCicoms" id="listaCicoms" onchange = "geraTextos()">
+            <OPtion id="itemSelect01">Selecione uma CICOM</OPtion>
+        </select>
     </div>
     <div>
-        <button type="button" class="btn btn-primary" id="gerarTexto" onclick="geraTextos()">Gerar Textos</button>
+        <!-- <button type="button" class="btn btn-primary" id="gerarTexto" onclick="geraTextos()">Gerar Textos</button> -->
     </div>
     <div>
         <label for="">Texto Incidente:</label>
