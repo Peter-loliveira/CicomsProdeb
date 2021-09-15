@@ -1,26 +1,26 @@
  // Lista de Cicons e seus dados
  const cicoms = [
-    {cicom: 'Alagoinhas', circuito: 'ALH5021751', Contato: 'Contato 01', Tel: '(77)3333-0001'},
-    {cicom: 'Barreiras', circuito: 'BES5031525', Contato: 'Contato 02', Tel: '(77)3333-0002'},
-    {cicom: 'Brumado', circuito: 'BRM5016519', Contato: 'Contato 03', Tel: '(77)3333-0003'},
-    {cicom: 'Esplanada', circuito: 'ESA5011387', Contato: 'Contato 04', Tel: '(77)3333-0004'},
-    {cicom: 'Euclides da Cunha', circuito: 'ECN5011240', Contato: 'Contato 05', Tel: '(77)3333-0005'},
-    {cicom: 'Feira de Santana', circuito: 'FSA5094140', Contato: 'Contato 05', Tel: '(77)3333-0005'},
-    {cicom: 'Guanambi', circuito: 'GNB5017824', Contato: 'Contato 06', Tel: '(77)3333-0006'},
-    {cicom: 'Ibotirama', circuito: 'IBM5010783', Contato: 'Contato 07', Tel: '(77)3333-0007'},
-    {cicom: 'Irece', circuito: 'IEE5017806', Contato: 'Contato 08', Tel: '(77)3333-0008'},
-    {cicom: 'Itaberaba', circuito: 'IEB5011725', Contato: 'Contato 09', Tel: '(77)3333-0009'},
-    {cicom: 'Itabuna', circuito: 'ITB5038838', Contato: 'Contato 10', Tel: '(77)3333-0010'},
-    {cicom: 'Jequié', circuito: 'JEE5022430', Contato: 'Contato 11', Tel: '(77)3333-0011'},
-    {cicom: 'Juazeiro', circuito: 'JUO5026611', Contato: 'Contato 12', Tel: '(77)3333-0012'},
-    {cicom: 'Paulo Afonso', circuito: 'PAF5020161', Contato: 'Contato 13', Tel: '(77)3333-0013'},
-    {cicom: 'Porto Seguro', circuito: 'PGU5022195', Contato: 'Contato 14', Tel: '(77)3333-0014'},
-    {cicom: 'Santa Maria da Vitoria', circuito: 'SMV5012231', Contato: 'Contato 15', Tel: '(77)3333-0015'},
-    {cicom: 'Santo Antônio de Jesus', circuito: 'SNJ5024228', Contato: 'Contato 16', Tel: '(77)3333-0016'},
-    {cicom: 'Senhor do Bonfim', circuito: 'SBM5014086', Contato: 'Contato 17', Tel: '(77)3333-0017'},
-    {cicom: 'Serrinha', circuito: 'SEH5019056', Contato: 'Contato 18', Tel: '(77)3333-0018'},
-    {cicom: 'Teixeira de Freitas', circuito: 'TAF5036594', Contato: 'Contato 19', Tel: '(77)3333-0019'},
-    {cicom: 'Valença', circuito: 'VEC5015775', Contato: 'Contato 20', Tel: '(77)3333-0020'},
+    {cicom: 'Alagoinhas', circuito: 'ALH5021751', Contato: 'Lucimeire', Tel: '(75)3423-9200'},
+    {cicom: 'Barreiras', circuito: 'BES5031525', Contato: 'Cap PM Leonardo', Tel: '(77)3611-0190'},
+    {cicom: 'Brumado', circuito: 'BRM5016519', Contato: 'Cap PM Leila', Tel: '(77)3453-2649'},
+    {cicom: 'Esplanada', circuito: 'ESA5011387', Contato: 'Cap. Helmo', Tel: '(77)3413-7600'},
+    {cicom: 'Euclides da Cunha', circuito: 'ECN5011240', Contato: 'Cap PM Fábio Oliveira', Tel: '(75)32710190'},
+    {cicom: 'Feira de Santana', circuito: 'FSA5094140', Contato: 'Cap PM Rosuilson', Tel: '(75)3224-0918'},
+    {cicom: 'Guanambi', circuito: 'GNB5017824', Contato: 'Cap PM Catarina', Tel: '(77)3451-5399'},
+    {cicom: 'Ibotirama', circuito: 'IBM5010783', Contato: 'Coordenador da Unidade', Tel: '(77)3698-6500'},
+    {cicom: 'Irece', circuito: 'IEE5017806', Contato: 'Cap PM Guimares', Tel: '(74)3641-5935'},
+    {cicom: 'Itaberaba', circuito: 'IEB5011725', Contato: 'Cap. PM Estrela', Tel: '(75)3251-8450'},
+    {cicom: 'Itabuna', circuito: 'ITB5038838', Contato: 'Cap. PM Jovita', Tel: '(73)32141500'},
+    {cicom: 'Jequié', circuito: 'JEE5022430', Contato: 'Cap. PM Ellison Machado', Tel: '(73)3528-3900'},
+    {cicom: 'Juazeiro', circuito: 'JUO5026611', Contato: 'Cap. PM Ricardo', Tel: '(74)3611-9230'},
+    {cicom: 'Paulo Afonso', circuito: 'PAF5020161', Contato: ' Cap. PM Nery', Tel: '(75)3281-8900'},
+    {cicom: 'Porto Seguro', circuito: 'PGU5022195', Contato: ' Cap. PM Marcio Henrique', Tel: '(73)3268-9330'},
+    {cicom: 'Santa Maria da Vitoria', circuito: 'SMV5012231', Contato: 'Cap. PM Azevedo', Tel: '(77)3483-6549'},
+    {cicom: 'Santo Antônio de Jesus', circuito: 'SNJ5024228', Contato: 'Cap. PM Vaz', Tel: '(75)3631-8450'},
+    {cicom: 'Senhor do Bonfim', circuito: 'SBM5014086', Contato: 'Cap. PM Wallace', Tel: '(74)3541-3995'},
+    {cicom: 'Serrinha', circuito: 'SEH5019056', Contato: 'Cap. Jailson', Tel: '(75) 3261-8247'},
+    {cicom: 'Teixeira de Freitas', circuito: 'TAF5036594', Contato: 'Cap. PM Marion', Tel: '(73)3165-2199'},
+    {cicom: 'Valença', circuito: 'VEC5015775', Contato: 'Cap. PM Claudelúcia Veiga', Tel: '(75)36433400'},
     {cicom: 'Vitoria da Conquista', circuito: 'VCA5038417', Contato: 'Contato 21', Tel: '(77)3333-0021'},
 ]
 
@@ -60,7 +60,7 @@ function geraTextos() {
 
     // Gera os textos finais
     let textoFinal =
-        `CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}. Informamos que às ${hora}h:${min} do dia ${dia}/${mes}/${ano} foi constatado que o link de dados do CICOM na cidade de ${cicoms[indexSelecionado].cicom} do circuito ${cicoms[indexSelecionado].circuito.toUpperCase()} encontra-se inoperante. \nInformamos ainda que o atendimento é de emergência operando 24h e não pode parar. Telefone de contato: ${cicoms[indexSelecionado].Tel.toUpperCase()} ${cicoms[indexSelecionado].Contato.toUpperCase()}, Coordenador da Unidade. \nChamado aberto por .`
+        `CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}.\nInformamos que às ${hora}h:${min} do dia ${dia}/${mes}/${ano} foi constatado que o link de dados do CICOM na cidade de ${cicoms[indexSelecionado].cicom} do circuito ${cicoms[indexSelecionado].circuito.toUpperCase()} encontra-se inoperante. \nInformamos ainda que o atendimento é de emergência operando 24h e não pode parar. Telefone de contato: ${cicoms[indexSelecionado].Tel.toUpperCase()} ${cicoms[indexSelecionado].Contato.toUpperCase()}, Coordenador da Unidade. \nChamado aberto por .`
     let whatsappFinal =
         `Foi aberto um Incidente Junto à PRODEB referente à CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}. Incidente Nº: `
 
