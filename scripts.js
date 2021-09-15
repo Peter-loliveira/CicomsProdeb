@@ -21,7 +21,7 @@
     {cicom: 'Serrinha', circuito: 'SEH5019056', Contato: 'Cap. Jailson', Tel: '(75) 3261-8247'},
     {cicom: 'Teixeira de Freitas', circuito: 'TAF5036594', Contato: 'Cap. PM Marion', Tel: '(73)3165-2199'},
     {cicom: 'Valença', circuito: 'VEC5015775', Contato: 'Cap. PM Claudelúcia Veiga', Tel: '(75)36433400'},
-    {cicom: 'Vitoria da Conquista', circuito: 'VCA5038417', Contato: 'Contato 21', Tel: '(77)3333-0021'},
+    {cicom: 'Vitoria da Conquista', circuito: 'VCA5038417', Contato: 'Almeida', Tel: '(77) 3420-8800'}
 ]
 
 // Preenche a lista de Cicoms
