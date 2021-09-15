@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 div {
@@ -31,9 +36,12 @@ label{
     font-weight: 800;
 }
 
+.textosGerados, .botaoCopiar{
+    height: 170px;
+}
+
 .textosGerados {
     width: 80%;
-    height: 150px;
     padding: 10px;
 }
 
@@ -46,13 +54,13 @@ label{
 }
 
 .botaoCopiar {
-    height: 150px;
     margin-left: 3px;
     border-radius: 5px;
-    border: 1px solid gray;
 }
 .botaoCopiar:hover{
     background-color:#4bdd99;
-    border: 1px solid gray;
+}
 
+.botaoCopiar, .botaoCopiar:hover{
+    border: 1px solid gray;
 }

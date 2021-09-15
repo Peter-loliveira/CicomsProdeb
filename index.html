@@ -13,13 +13,13 @@
 </head>
 
 <body class="text-center">
-    <div class="">
+    <div>
         <h1>Gerar textos Incidente Cicoms / Prodeb</h1>
     </div>
 
     <div class="">
         <select name="listaCicoms" id="listaCicoms" onchange = "geraTextos()">
-            <OPtion id="itemSelect01">Selecione uma CICOM</OPtion>
+            <Option id="itemSelect01">Selecione uma CICOM</Option>
         </select>
     </div>
     <div>
@@ -29,15 +29,25 @@
         <label for="">Texto Incidente:</label>
     </div>
     <div class='areaTextosGerados'>
-        <textarea type="text" class="textosGerados" id="textoGerado"></textarea>
+        <textarea 
+            type="text" 
+            class="textosGerados" 
+            id="textoGerado" 
+            placeholder= 'Texto para o INCIDENTE. Clique no botão ao lado para copiar para a área de transferência'
+        ></textarea>
         <button class="btn btn btn-light botaoCopiar" onclick="copiarTextoIncidente()">📋</button>
     </div>
     <div>
         <label for="">Texto Whatsapp:</label>
     </div>
     <div class='areaTextosGerados'>
-        <textarea type="text" class="textosGerados" id="whatsappGerado"></textarea>
-        <button class="btn btn btn-light botaoCopiar" onclick="copiarTextoWhatsapp()">📋</button>
+        <textarea 
+            type="text" 
+            class="textosGerados" 
+            id="whatsappGerado" 
+            placeholder="Texto para o Whatsapp. Clique no botão ao lado para copiar para a área de transferência!"
+        ></textarea>
+        <button class="btn botaoCopiar" onclick="copiarTextoWhatsapp()">📋</button>
     </div>
 </body>
 
