@@ -3,64 +3,23 @@
     padding: 0;
 }
 
-body {
-    padding-top: 3%;
-}
-
-div {
-    padding: 10px 0 0 10px;
-}
-
 select {
-    width: 20%;
-    font-weight: 700;
     border-radius: 5px;
 }
 
-option {
-    font-weight: 500;
-}
-
-#itemSelect01{
+#firstItem{
     color: #cccccc;
 }
 
-textarea {
+textarea{
     resize: none;
+    height: 200px;
 }
 
-label{
-    display: flex;
-    align-items: flex-start;
-    margin-left: 8.3%;
-    font-weight: 800;
+#whatsappGerado{
+    height: 100px;
 }
 
-.textosGerados, .botaoCopiar{
-    height: 170px;
-}
-
-.textosGerados {
-    width: 80%;
-    padding: 10px;
-}
-
-.areaTextosGerados {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-
-.botaoCopiar {
-    margin-left: 3px;
-    border-radius: 5px;
-}
 .botaoCopiar:hover{
-    background-color:#4bdd99;
-}
-
-.botaoCopiar, .botaoCopiar:hover{
-    border: 1px solid gray;
+    background-color:#81f6bf;
 }
