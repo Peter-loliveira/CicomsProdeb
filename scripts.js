@@ -33,8 +33,13 @@ for (let i = 0; i < cicoms.length; i++) {
 }
 
 // Assossio os campos de texto para inserir os textos gerados
+const areaTransf = 'Clique no botão ao lado para copiar para a área de transferência!'
 const textoGerado = document.getElementById('textoGerado')
+const placeIncident = `Texto para o INCIDENTE.\n${areaTransf}`
+textoGerado.setAttribute('placeholder', placeIncident)
 const whatsappGerado = document.getElementById('whatsappGerado')
+const placeWhatsapp = `Texto para o Whatsapp.\n${areaTransf}`
+whatsappGerado.setAttribute('placeholder', placeWhatsapp)
 
 
 function geraTextos() {

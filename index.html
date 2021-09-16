@@ -9,46 +9,55 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Chamados Cincon Prodeb</title>
-
 </head>
 
-<body class="text-center">
-    <div>
-        <h1>Gerar textos Incidente Cicoms / Prodeb</h1>
+<body class="mt-5">
+
+    <div class="container text-center mb-3">
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <h1>Gerar textos Incidente Cicoms / Prodeb</h1>
+            </div>
+        </div>
     </div>
 
-    <div class="">
-        <select name="listaCicoms" id="listaCicoms" onchange = "geraTextos()">
-            <Option id="itemSelect01">Selecione uma CICOM</Option>
-        </select>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <select class="form-select form-select-lg " id="listaCicoms" onchange="geraTextos()">
+                    <Option id="firstItem">Selecione uma CICOM</Option>
+                </select>
+            </div>
+        </div>
     </div>
-    <div>
-        <!-- <button type="button" class="btn btn-primary" id="gerarTexto" onclick="geraTextos()">Gerar Textos</button> -->
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <div class="input-group mb-3">
+                    <textarea id="textoGerado" class="form-control p-4"
+                        placeholder='Texto para o INCIDENTE. Clique no botão ao lado para copiar para a área de transferência'
+                        aria-label='Texto para o INCIDENTE. Clique no botão ao lado para copiar para a área de transferência'
+                        type="text" aria-describedby="basic-addon2"></textarea>
+                    <button class="input-group-text botaoCopiar" id="basic-addon2"
+                        onclick="copiarTextoIncidente()">📋</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <label for="">Texto Incidente:</label>
-    </div>
-    <div class='areaTextosGerados'>
-        <textarea 
-            type="text" 
-            class="textosGerados" 
-            id="textoGerado" 
-            placeholder= 'Texto para o INCIDENTE. Clique no botão ao lado para copiar para a área de transferência'
-        ></textarea>
-        <button class="btn btn btn-light botaoCopiar" onclick="copiarTextoIncidente()">📋</button>
-    </div>
-    <div>
-        <label for="">Texto Whatsapp:</label>
-    </div>
-    <div class='areaTextosGerados'>
-        <textarea 
-            type="text" 
-            class="textosGerados" 
-            id="whatsappGerado" 
-            placeholder="Texto para o Whatsapp. Clique no botão ao lado para copiar para a área de transferência!"
-        ></textarea>
-        <button class="btn botaoCopiar" onclick="copiarTextoWhatsapp()">📋</button>
-    </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-9">
+                    <div class="input-group mb-3">
+                        <textarea id="whatsappGerado" class="form-control p-4" type="text"></textarea>
+                        <button class="input-group-text botaoCopiar" id="basic-addon2"
+                            onclick="copiarTextoWhatsapp()">📋</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 </body>
 
 <script src="scripts.js"></script>
