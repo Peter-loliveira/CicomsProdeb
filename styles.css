@@ -3,12 +3,8 @@
     padding: 0;
 }
 
-select {
-    border-radius: 5px;
-}
-
 #firstItem{
-    color: #cccccc;
+    color: #ccc;
 }
 
 textarea{
