@@ -26,16 +26,17 @@
 
 // Preenche a lista de Cicoms
 const lista = document.getElementById('listaCicoms')
-for (let i = 0; i < cicoms.length; i++) {
-    let novoItem = document.createElement('option')
-    novoItem.text = cicoms[i].cicom
-    lista.append(novoItem)
-}
 
-// Assossio os campos de texto para inserir os textos gerados
+cicoms.forEach((cicomAtual) => {
+        const novoItem = document.createElement('option')
+        novoItem.text = cicomAtual.cicom
+        lista.append(novoItem)
+})
+
+// Assossia os campos de texto para inserir os textos gerados
 const areaTransf = 'Clique no botão ao lado para copiar para a área de transferência!'
-const textoGerado = document.getElementById('textoGerado')
 const placeIncident = `Texto para o INCIDENTE.\n${areaTransf}`
+const textoGerado = document.getElementById('textoGerado')
 textoGerado.setAttribute('placeholder', placeIncident)
 const whatsappGerado = document.getElementById('whatsappGerado')
 const placeWhatsapp = `Texto para o Whatsapp.\n${areaTransf}`
