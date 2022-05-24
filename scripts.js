@@ -74,7 +74,7 @@ function geraTextos() {
     let textoFinal =
         `CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}.\nInformamos que às ${hora}h:${min} do dia ${dia}/${mes}/${ano} foi constatado que o link de dados do CICOM na cidade de ${cicoms[indexSelecionado].cicom} do circuito ${cicoms[indexSelecionado].circuito.toUpperCase()} encontra-se inoperante. \nInformamos ainda que o atendimento é de emergência operando 24h e não pode parar.\nTelefone / Contato: ${cicoms[indexSelecionado].Tel.toUpperCase()} / Coordenador ou Adjunto da CICOM.\nChamado aberto por `
     let whatsappFinal =
-        `Foi aberto um Incidente junto à PRODEB referente à queda do link de DADOS da CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}.\n Incidente Nº: `
+        `Foi aberto um Incidente junto à PRODEB referente à queda do link de DADOS da CICOM ${cicoms[indexSelecionado].cicom.toUpperCase()}.\nIncidente Nº: `
 
     textoGerado.value = textoFinal
     whatsappGerado.value = whatsappFinal
