@@ -19,6 +19,7 @@
     {cicom: 'Santo Antônio de Jesus', circuito: 'SNJ5024228', Tel: '(75)3631-8450'},
     {cicom: 'Senhor do Bonfim', circuito: 'SBM5014086', Tel: '(74)3541-3995'},
     {cicom: 'Serrinha', circuito: 'SEH5019056', Tel: '(75) 3261-8247'},
+    {cicom: 'Serrinha RG4', circuito: 'SRRRG0019I', Tel: '(75) 3261-8247'},
     {cicom: 'Teixeira de Freitas', circuito: 'TAF5036594', Tel: '(73)3165-2199'},
     {cicom: 'Valença', circuito: 'VEC5015775', Tel: '(75)36433400'},
     {cicom: 'Vitoria da Conquista', circuito: 'VCA5038417',Tel: '(77) 3420-8800'}
