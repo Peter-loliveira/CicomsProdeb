@@ -19,3 +19,26 @@ textarea{
 .botaoCopiar:hover{
     background-color:#81f6bf;
 }
+
+.bgRG3 {
+    background-color: rgb(228, 177, 177);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.caixa{
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.corRG3{
+    background-color: rgb(228, 177, 177);
+}
+
+.displayInLine{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
