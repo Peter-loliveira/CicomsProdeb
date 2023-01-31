@@ -21,7 +21,7 @@
 
 
 const cicoms = [
-    {cicom: 'Alagoinhas', circuito: 'ALGRG0028I',  RG: '4', RG: '4', Tel: '(75)3423-9200'},
+    {cicom: 'Alagoinhas', circuito: 'ALGRG0028I',  RG: '4', Tel: '(75)3423-9200'},
     {cicom: 'Barreiras', circuito: 'BES5031525', RG: '3', Tel: '(77)3611-0190'},
     {cicom: 'Barreiras', circuito: 'BRSRG0027I',  RG: '4', Tel: '(77)3611-0190'},
     {cicom: 'Brumado', circuito: 'BMDRG0010I',  RG: '4', Tel: '(77)3453-2649'},
