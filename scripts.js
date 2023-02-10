@@ -25,7 +25,7 @@ const cicoms = [
     {cicom: 'Barreiras', circuito: 'BES5031525', RG: '3', Tel: '(77)3611-0190'},
     {cicom: 'Barreiras', circuito: 'BRSRG0027I',  RG: '4', Tel: '(77)3611-0190'},
     {cicom: 'Brumado', circuito: 'BMDRG0010I',  RG: '4', Tel: '(77)3453-2649'},
-    {cicom: 'Esplanada', circuito: 'ESPRG0006I',  RG: '4', Tel: '(77)3413-7600'},
+    {cicom: 'Esplanada', circuito: 'ESPRG0006I',  RG: '4', Tel: '(75)3413-7600'},
     {cicom: 'Euclides da Cunha', circuito: 'ECNRG0010I',  RG: '4', Tel: '(75)32710190'},
     {cicom: 'Feira de Santana', circuito: 'FRSRG0074I',  RG: '4', Tel: '(75)3224-0918'},
     {cicom: 'Guanambi', circuito: 'GNB5017824', RG: '3', Tel: '(77)3451-5399'},
