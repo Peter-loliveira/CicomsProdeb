@@ -1,9 +1,11 @@
 // Antigos Links RG3
 // {cicom: 'Alagoinhas', circuito: 'ALH5021751', RG: '3', Tel: '(75)3423-9200'},
+// {cicom: 'Barreiras', circuito: 'BES5031525', RG: '3', Tel: '(77)3611-0190'},
 // {cicom: 'Brumado', circuito: 'BRM5016519', RG: '3', Tel: '(77)3453-2649'},
 // {cicom: 'Esplanada', circuito: 'ESA5011387', RG: '3', Tel: '(77)3413-7600'},
 // {cicom: 'Euclides da Cunha', circuito: 'ECN5011240', RG: '3', Tel: '(75)32710190'},
 // {cicom: 'Feira de Santana', circuito: 'FSA5094140', RG: '3', Tel: '(75)3224-0918'},
+// {cicom: 'Guanambi', circuito: 'GNB5017824', RG: '3', Tel: '(77)3451-5399'},
 // {cicom: 'Ibotirama', circuito: 'IBM5010783', RG: '3', Tel: '(77)3698-6500'},
 // {cicom: 'Irecê', circuito: 'IEE5017806', RG: '3', Tel: '(74)3641-5935'},
 // {cicom: 'Itaberaba', circuito: 'IEB5011725', RG: '3', Tel: '(75)3251-8450'},
@@ -11,6 +13,7 @@
 // {cicom: 'Jequié', circuito: 'JEE5022430', RG: '3', Tel: '(73)3528-3900'},
 // {cicom: 'Juazeiro', circuito: 'JUO5026611', RG: '3', Tel: '(74)3611-9230'},
 // {cicom: 'Paulo Afonso', circuito: 'PAF5020161', RG: '3', Tel: '(75)3281-8900'},
+// {cicom: 'Porto Seguro', circuito: 'PGU5022195', RG: '3', Tel: '(73)3268-9330'},
 // {cicom: 'Santa Maria da Vitoria', circuito: 'SMV5012231', RG: '3', Tel: '(77)3483-6549'},
 // {cicom: 'Santo Antônio de Jesus', circuito: 'SNJ5024228', RG: '3', Tel: '(75)3631-8450'},
 // {cicom: 'Senhor do Bonfim', circuito: 'SBM5014086', RG: '3', Tel: '(74)3541-3995'},
@@ -23,13 +26,11 @@
 
 const cicoms = [
     {cicom: 'Alagoinhas', circuito: 'ALGRG0028I',  RG: '4', Tel: '(75)3423-9200'},
-    {cicom: 'Barreiras', circuito: 'BES5031525', RG: '3', Tel: '(77)3611-0190'},
     {cicom: 'Barreiras', circuito: 'BRSRG0027I',  RG: '4', Tel: '(77)3611-0190'},
     {cicom: 'Brumado', circuito: 'BMDRG0010I',  RG: '4', Tel: '(77)3453-2649'},
     {cicom: 'Esplanada', circuito: 'ESPRG0006I',  RG: '4', Tel: '(75)3413-7600'},
     {cicom: 'Euclides da Cunha', circuito: 'ECNRG0010I',  RG: '4', Tel: '(75)32710190'},
     {cicom: 'Feira de Santana', circuito: 'FRSRG0074I',  RG: '4', Tel: '(75)3224-0918'},
-    {cicom: 'Guanambi', circuito: 'GNB5017824', RG: '3', Tel: '(77)3451-5399'},
     {cicom: 'Guanambi', circuito: 'GMBRG0014I',  RG: '4', Tel: '(77)3451-5399'},
     {cicom: 'Ibotirama', circuito: 'ITMRG0006I',  RG: '4', Tel: '(77)3698-6500'},
     {cicom: 'Irecê', circuito: 'IRCRG0019I',  RG: '4', Tel: '(74)3641-5935'},
@@ -38,7 +39,6 @@ const cicoms = [
     {cicom: 'Jequié', circuito: 'JQERG0035I',  RG: '4', Tel: '(73)3528-3900'},
     {cicom: 'Juazeiro', circuito: 'JUARG0041I',  RG: '4', Tel: '(74)3611-9230'},
     {cicom: 'Paulo Afonso', circuito: 'PAFRG0023I',  RG: '4', Tel: '(75)3281-8900'},
-    {cicom: 'Porto Seguro', circuito: 'PGU5022195', RG: '3', Tel: '(73)3268-9330'},
     {cicom: 'Porto Seguro', circuito: 'PSGRG0020I',  RG: '4', Tel: '(73)3268-9330'},
     {cicom: 'Santa Maria da Vitoria', circuito: 'SMVRG0014I',  RG: '4', Tel: '(77)3483-6549'},
     {cicom: 'Santo Antônio de Jesus', circuito: 'SAJRG0016I',  RG: '4', Tel: '(75)3631-8450'},
@@ -55,9 +55,9 @@ const lista = document.getElementById('listaCicoms')
 cicoms.forEach((cicomAtual) => {
         const novoItem = document.createElement('option')
         novoItem.text = `${cicomAtual.cicom} - ${cicomAtual.circuito}`
-        if (cicomAtual.RG == '3') {
-            novoItem.classList.add('bgRG3')
-        }
+//         if (cicomAtual.RG == '3') {
+//             novoItem.classList.add('bgRG3')
+//         }
         lista.append(novoItem)
 })
 
