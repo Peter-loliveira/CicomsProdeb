@@ -18,6 +18,7 @@
 // {cicom: 'Serrinha RG4', circuito: 'SRRRG0019I', RG: '3', Tel: '(75) 3261-8247'},
 // {cicom: 'Teixeira de Freitas', circuito: 'TAF5036594', RG: '3', Tel: '(73)3165-2199'},
 // {cicom: 'Vitoria da Conquista', circuito: 'VCA5038417', RG: '3', Tel: '(77) 3420-8800'},
+// {cicom: 'Valença', circuito: 'VEC5015775', RG: '3', Tel: '(75)36433400'},
 
 
 const cicoms = [
@@ -44,7 +45,6 @@ const cicoms = [
     {cicom: 'Senhor do Bonfim', circuito: 'SDBRG0018I',  RG: '4', Tel: '(74)3541-3995'},
     {cicom: 'Serrinha', circuito: 'SRRRG0019I',  RG: '4', Tel: '(75) 3261-8247'},
     {cicom: 'Teixeira de Freitas', circuito: 'TXFRG0020I',  RG: '4', Tel: '(73)3165-2199'},
-    {cicom: 'Valença', circuito: 'VEC5015775', RG: '3', Tel: '(75)36433400'},
     {cicom: 'Valença', circuito: 'VLCRG0018I',  RG: '4', Tel: '(75)36433400'},
     {cicom: 'Vitoria da Conquista', circuito: 'VCARG0038I',  RG: '4',Tel: '(77) 3420-8800'}
 ]
