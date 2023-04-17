@@ -33,7 +33,7 @@ const cicoms = [
     {cicom: 'Feira de Santana', circuito: 'FRSRG0074I',  RG: '4', Tel: '(75)3224-0918'},
     {cicom: 'Guanambi', circuito: 'GMBRG0014I',  RG: '4', Tel: '(77)3451-5399'},
     {cicom: 'Ibotirama', circuito: 'ITMRG0006I',  RG: '4', Tel: '(77)3698-6500'},
-    {cicom: 'Irecê', circuito: 'IRCRG0019I',  RG: '4', Tel: '(74)3641-5935'},
+    {cicom: 'Irecê', circuito: 'IRCRG0019I',  RG: '4', Tel: '(74)3688-6950'},
     {cicom: 'Itaberaba', circuito: 'ITRRG0018I',  RG: '4', Tel: '(75)3251-8450'},
     {cicom: 'Itabuna', circuito: 'ITBRG0036I',  RG: '4', Tel: '(73)32141500'},
     {cicom: 'Jequié', circuito: 'JQERG0035I',  RG: '4', Tel: '(73)3528-3900'},
